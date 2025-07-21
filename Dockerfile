@@ -1,5 +1,5 @@
 # base image maintained by the NVIDIA CUDA Installer Team - https://hub.docker.com/r/nvidia/cuda/
-FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:12.0.1-cudnn8-devel-ubuntu22.0
 
 # install os packages
 RUN apt-get update \
