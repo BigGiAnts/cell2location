@@ -1,5 +1,5 @@
 # base image maintained by the NVIDIA CUDA Installer Team - https://hub.docker.com/r/nvidia/cuda/
-FROM nvidia/cuda:12.0.1-cudnn8-devel-ubuntu22.0
+FROM nvidia/cuda:12.0.0-cudnn8-devel-centos7
 
 # install os packages
 RUN apt-get update \
